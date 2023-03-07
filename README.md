@@ -1,2 +1,3 @@
-# web-dev
-this is for a coding bootcamp
+# Hello World
+    
+This is a readme for our first project!
