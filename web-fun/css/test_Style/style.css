@@ -4,7 +4,7 @@
     color: aqua;
     background-color: #000;
     font-size: 50px;
-    font-family: ;
+    
   }
 
   .is-start span {
@@ -17,13 +17,14 @@
     background-color: rebeccapurple;
     font-size: 30px;
     font-style: italic;
-    font-weight: light;
+    font-weight: normal;
   }
 
-  .is-end {
+  .is-right {
     text-align: end;
     font-size: 25px;
     color:#000;
     background-color: skyblue;
     text-decoration: underline;
+    font-weight: lighter;
   }
