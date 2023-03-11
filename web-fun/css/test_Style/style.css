@@ -1,5 +1,23 @@
-h1 {
-  color: ;
-  text-align: start;
-  
-}
+
+  .is-start {
+    text-align: left;
+    color: aqua;
+    background-color: #000;
+    font-size: 50px;
+    font-family: ;
+    padding: 5px;
+  }
+
+  .is-start span {
+    color: aliceblue;
+  }
+
+  .is-centered {
+    text-align: center;
+    color: whitesmoke;
+    background-color: rebeccapurple;
+  }
+
+  .is-end {
+    text-align: end;
+  }
