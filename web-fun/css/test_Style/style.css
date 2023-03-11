@@ -5,7 +5,6 @@
     background-color: #000;
     font-size: 50px;
     font-family: ;
-    padding: 5px;
   }
 
   .is-start span {
@@ -16,8 +15,15 @@
     text-align: center;
     color: whitesmoke;
     background-color: rebeccapurple;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: light;
   }
 
   .is-end {
     text-align: end;
+    font-size: 25px;
+    color:#000;
+    background-color: skyblue;
+    text-decoration: underline;
   }
