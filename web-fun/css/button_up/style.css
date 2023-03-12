@@ -1,0 +1,27 @@
+
+.search-button{
+    background-color: white;
+    color: rgb(41, 118, 211);
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 30px;
+    border-radius: 36px;
+}
+
+.plus-button {
+    color: rgb(255,255,255);
+    background-color: rgb(41, 118, 211);
+    border-radius: 50%;
+    padding: 10px 15px;
+    border: none;
+}
+
+.create-acc-button {
+    color: rgb(255,255,255);
+    background-color: rgb(41, 118, 211);
+    padding:10px 25px;
+    margin-top: 10px;
+    box-shadow: 10px 5px 5px rgb(104, 104, 104);
+    border-color: rgb(0, 0, 0);
+}
