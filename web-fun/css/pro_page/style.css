@@ -1,52 +1,73 @@
-/* css reset */
 * {
     padding: 0;
     margin: 0;
 }
-
 #container {
+    padding: 34px;
     background-color: seashell;
-    width: 640px;
-    height: 360px;
-    margin: 70px;
-    border: 4px solid rgb(0,0,0);
-    /* align-items: center; */
-
+    margin: 0px auto;
 }
-
-
-
-.avatar {
-    background-color: deepskyblue;
-    height: 100px;
-   /* margin: 0px; */
-    width: inherit;
-}
-
-.pro-pic {
-    border-radius: 24%;
-    border-color:aliceblue;
-}
-
-.pro-pic {
-    height:140px;
-    margin: 30px;
-    /* position: fixed; */
-}
-
-.map-point {
-    height: 14px
-}
-
-.bio {
-    margin: 40px;
-    padding: 35px 4px;
+.nav-bar {
+    color: white;
+    background-color: black;
+    /*padding: 10px;*/
+    margin: -34px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.nav-links li {
+padding: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar > button {
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin: 4px;
+}
+/* profile id section */
+.pro-box {
+    border: 4px solid rgb(0,0,0);
+    background-color: white;
+    height: 280px;
+    width: 300px;
+    margin: 40px;
+}
+.pro-box > hr {
+    border: none;
+    width: inherit;
+    height: 30%;
+    background-color: grey;
 }
 
-.bio h3 {
-    margin: 10px;
+.requests {
+    border: 4px solid rgb(0,0,0);
+    background-color: aliceblue;
+    height: 200px;
+    width: 190px;
+    margin: 40px;
+}
+.requests > .banner {
+    border: none;
+    width: inherit;
+    height: 14%;
+    background-color: grey;
+    color: white;
+}
+.banner > h3 {
+    padding: 4px;
+}
+
+.requests > img {
+    height: 24px;
 }
