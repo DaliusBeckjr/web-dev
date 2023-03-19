@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title> 
+    <!--links to style and js-->
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <!--link to google font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div class="nav-bar">
+            <h1>Dojonary</h1>
+            <div class="search-container">
+                <form action="/search" method="get">
+                    <input class="search-bar"  type="search" name="q" placeholder="Search">
+                </form>
+            </div>
+            <button class="log-in" onclick="change(this)">login</button>
+        </div> <!--end class nav-bar-->
+        <div id="main">
+            <div class="left-nav">
+                <!--needs 2 more navs to split-->
+                <div class="box">
+                    <div class="inner-left">
+                        <h1>ninja</h1>
+                            <div class="noun">
+                                <h4>noun</h4>
+                                <p>plural: ninjas</p>
+                            </div>
+                        <button onclick="alert('Ninja was liked')">13 Likes</button>
+                    </div> <!--end to inner-left class-->
+                    <h2 class="inner-right"> A practioner skilled in the <br/> 
+                        <span>Japanese</span> art of <span>ninjustsu</span>
+                    </h2>
+                </div> <!--end class box-->
+                <div class="box2">
+                    <div class="inner-left">
+                        <h1>ninja</h1>
+                            <div class="noun">
+                                <h4>noun</h4>
+                                <p>plural: ninjas</p>
+                            </div>
+                        <button onclick="alert('Ninja was liked')">37 Likes</button>
+                    </div> <!--end to inner -left class-->
+                    <h2 class="inner-right"> A <span>programmer</span> who breaks <br/> 
+                        down problems with <span>zen</span>-like <br />
+                        focus
+                    </h2>
+                </div> <!--end class box-->
+            </div> <!--end of left-nav-->
+            <div class="nav-right">
+                <div class="box3">
+                    <h2>Dojonary is <br/>
+                    defined by YOU</h2>
+                    <button id="define"  onclick="remove(this)">Add Definition</button>
+                </div> <!--end to class box3-->
+            </div> <!--end to nav-right-->
+        </div> <!--end to main id-->
+    </div> <!--end container id-->
+</body>
+</html>
