@@ -1,0 +1,19 @@
+@forward 'global'; // will look for the index.scss file
+
+#wrapper {
+    margin: 25px;
+}
+
+#increment-btn {
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: none;
+    color: black;
+    background: rgb(16, 121, 157);
+}
+
+#increment-btn:hover {
+    background: rgb(135, 199, 221);
+    color: white;
+}

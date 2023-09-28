@@ -1,0 +1,6 @@
+// generally keep one index file in each sass file will help 
+// with the organization
+
+// load sass files
+@forward 'boilerplate';
+@forward 'typography';

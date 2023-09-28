@@ -1,0 +1,17 @@
+h1,
+h2,
+h3 {
+    font-weight: 700; // which is bold
+    line-height: 1.1;
+    // adding another reset bc browser will add default a margin top and bottom
+    margin-top: 0; 
+}
+
+p {
+    margin-top: 0;
+}
+
+a, a:active, a:visited {
+    // this will remove the line underneath the anchor tags
+    text-decoration: none;
+}
