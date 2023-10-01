@@ -39,6 +39,7 @@ const server = http.createServer( (req, res) => {
     })
 });
 
-server.listen(3000, 'localhost', () => {
+server.listen(port = 3000, host = 'localhost', () => {
     console.log('listening for request on port 3000')
+    console.log(`http://${host}:${port}`);
 }); // 3000 is the port number of the rserver
