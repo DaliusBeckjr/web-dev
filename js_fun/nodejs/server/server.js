@@ -1,8 +1,14 @@
 const http = require('http');
 const fs = require('fs');
+const _ = require('lodash');
 
 const server = http.createServer( (req, res) => {
-    console.log(req.url, req.method);
+    // console.log(req.url, req.method); // dont need this anymore
+
+    //lodash --> make sure to install lodash (npm i lodash)
+    const num = _.random(0, 20);
+    console.log(num);
+
 
     // set header content type
     res.setHeader('Content-Type', 'text/html');
