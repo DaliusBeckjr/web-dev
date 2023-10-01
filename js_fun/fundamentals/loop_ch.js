@@ -31,3 +31,14 @@ function sequence() {
 }
 
 // console.log(sequence());
+
+// sigma
+// Write code that will add all of the values from 1-100 onto some variable sum and at the 
+// end console.log the result 1 + 2 + 3 + ... + 98 + 99 + 100. We should get back 5050 at 
+// the end.
+
+function sigma(){
+    for( let i = 1; 1<101; i++) {
+        
+    }
+}
