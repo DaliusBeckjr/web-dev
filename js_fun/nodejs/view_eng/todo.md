@@ -1,0 +1,5 @@
+- create our files
+- views folder with index.html, 404.html
+- install packages
+- npm init -y
+- npm i lodash express ejs (alt. express handlebars and pug but for simplicity we chose ejs)
