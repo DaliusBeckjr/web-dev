@@ -1,4 +1,5 @@
 const express = require('express');
+const morgan = require('morgan');
 
 // set up express app
 const app = express();
@@ -8,8 +9,24 @@ app.set('view engine', 'ejs');
 // if you want to create a second views folder called something else then..
 // app.set('views', 'myViews');
 
+
 // listen for request
 app.listen(3000) // automatically infers localhost:3000
+
+// middleware and static files
+app.use(express.static('public'));
+
+// third-party middleware
+app.use(morgan('dev'));
+
+
+app.use( (req, res, next) => {
+    console.log('new request made');
+    console.log('host', req.hostname);
+    console.log('path', req.path);
+    console.log('method', req.method);
+    next();
+});
 
 app.get('/', (req, res) => {
     // res.sendFile('./views/index.html', { root: __dirname }); // replaceing with render method
@@ -18,7 +35,7 @@ app.get('/', (req, res) => {
         {title: 'mario finds stars', snippet: 'lorem ipsum dolor de connector'},
         {title: 'luigi finds ghosts', snippet: 'lorem ipsum dolor de connector'},
     ]
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', blogs });
 });
 
 app.get('/about', (req, res) => {
