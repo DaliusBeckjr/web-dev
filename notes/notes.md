@@ -1,0 +1,1 @@
+this is for future notes on validations and other topics in node and javascript

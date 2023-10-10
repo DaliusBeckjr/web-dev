@@ -2,4 +2,4 @@
 - views folder with index.html, 404.html
 - install packages
 - npm init -y
-- npm i lodash express ejs (alt. express handlebars and pug but for simplicity we chose ejs)
+- npm i lodash express ejs mongoose morgan joi mongodb (alt. express handlebars and pug but for simplicity we chose ejs)
