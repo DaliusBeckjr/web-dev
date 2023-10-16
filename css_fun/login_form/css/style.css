@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* poppins */
+    font-family: Arial, Helvetica, sans-serif; 
+    /* makes the default font size 16px */
+    font-size: 100%; 
+
+}
+
+.container {
+    /* 16 * 100 = 1600px */
+    width: 100vw; 
+    height: 100vh;
+}
