@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import './App.css'
 
-function App() {
-  // const [count, setCount] = useState(0)
+import Navbar from './components/navbar'
+import Home from './components/Home'
+
+
+
+export default function App() {
 
   return (
     <>
-      <div>
-      {/* this is a comment */}
+      <div className="app">
+        <Navbar />
+        <div className="content">
+          <Home />
+        </div>
       </div>
     </>
   )
 }
-
-export default App
