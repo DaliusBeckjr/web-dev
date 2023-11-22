@@ -1,0 +1,28 @@
+{
+    "careers": [
+        {
+            "id": 1,
+            "title": "Senior React Developer",
+            "salary": 50000,
+            "location": "London, UK"
+        },
+        {
+            "id": 2,
+            "title": "Plumber",
+            "salary": 40000,
+            "location": "Mesa, AZ"
+        },
+        {
+            "id": 3,
+            "title": "Gym Leader",
+            "salary": 150000,
+            "location": "Kanto Region"
+        },
+        {
+            "id": 4,
+            "title": "Python Developer",
+            "salary": 45000,
+            "location": "Mesa, AZ"
+        }
+    ]
+}
